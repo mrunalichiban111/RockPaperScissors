@@ -10,7 +10,7 @@
     "name": "rps bang",
     "version": "0.0.0",
     "iconUrl": "https://rock-paper-scissors-one-pearl.vercel.app/vercel.svg",
-    "homeUrl": "https://rock-paper-scissors-one-pearl.vercel.app/api/frame",
+    "homeUrl": "https://rock-paper-scissors-one-pearl.vercel.app/",
     "imageUrl": "https://eduplayzone.in/image/rps.png",
     "splashImageUrl": "https://eduplayzone.in/image/rps.png",
     "splashBackgroundColor": "#1a1a2e",
