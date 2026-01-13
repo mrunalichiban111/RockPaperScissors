@@ -15,7 +15,7 @@
     "splashImageUrl": "https://eduplayzone.in/image/rps.png",
     "splashBackgroundColor": "#1a1a2e",
     "webhookUrl": "https://rock-paper-scissors-one-pearl.vercel.app/api/webhook",
-    "subtitle": "You v/s Computer",
+    "subtitle": "You vs Computer",
     "description": "Play and have fun with this simple game of rock paper scissors",
     "primaryCategory": "games",
     "heroImageUrl": "https://eduplayzone.in/image/rps.png"
