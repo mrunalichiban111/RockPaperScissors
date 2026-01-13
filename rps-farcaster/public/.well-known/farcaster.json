@@ -8,7 +8,7 @@
 
   "frame": {
     "name": "rps bang",
-    "version": "vNext",
+    "version": "0.0.0",
     "iconUrl": "https://rock-paper-scissors-one-pearl.vercel.app/vercel.svg",
     "homeUrl": "https://rock-paper-scissors-one-pearl.vercel.app/api/frame",
     "imageUrl": "https://eduplayzone.in/image/rps.png",
