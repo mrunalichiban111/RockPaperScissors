@@ -1,9 +1,16 @@
 {
+    
+  "accountAssociation": {
+    "header": "eyJmaWQiOjExNTM0NzIsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHhCNTZlNzZjMDI1NkVlMTQ1MTY4MGZkQzc5ZERhZWVmQTAzMzYwN2ZGIn0",
+    "payload": "eyJkb21haW4iOiJyb2NrLXBhcGVyLXNjaXNzb3JzLW9uZS1wZWFybC52ZXJjZWwuYXBwIn0",
+    "signature": "ZDgwi2bi/6cE3UNJw++k2LfD5ZrztWWgUMiG4q9Q29tQjWtTVkxdtessizh05JmvHc0yZ4SL15hG2pQPP+XLHxw="
+  },
+
   "frame": {
     "name": "rps bang",
-    "version": "1",
-    "iconUrl": "https://rock-paper-scissors-one-pearl.vercel.app/icon.png",
-    "homeUrl": "https://rock-paper-scissors-one-pearl.vercel.app",
+    "version": "vNext",
+    "iconUrl": "https://rock-paper-scissors-one-pearl.vercel.app/vercel.svg",
+    "homeUrl": "https://rock-paper-scissors-one-pearl.vercel.app/api/frame",
     "imageUrl": "https://eduplayzone.in/image/rps.png",
     "splashImageUrl": "https://eduplayzone.in/image/rps.png",
     "splashBackgroundColor": "#1a1a2e",
