@@ -1,10 +1,15 @@
 "use client";
 
-import { useEffect } from "react";
-import sdk from "@farcaster/frame-sdk";
+import { useEffect, useRef } from "react";
+import sdk from "@farcaster/miniapp-sdk";
 
 export default function Home() {
+  const redirected = useRef(false);
+
   useEffect(() => {
+    if (redirected.current) return;
+
+    redirected.current = true;
     sdk.actions.ready();
     sdk.actions.openUrl("/api/frame");
   }, []);
