@@ -6,6 +6,9 @@ import { sdk } from '@farcaster/miniapp-sdk'
 export default function Home() {
   useEffect(() => {
     sdk.actions.ready();   // 🔥 this fixes the error
+    sdk.actions.openUrl(
+      "https://rock-paper-scissors-one-pearl.vercel.app/api/frame"
+    );
   }, []);
 
   return (
