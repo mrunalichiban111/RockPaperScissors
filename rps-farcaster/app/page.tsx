@@ -1,12 +1,12 @@
 "use client";
 
 import { useEffect } from "react";
-import { sdk } from '@farcaster/miniapp-sdk'
+import sdk from "@farcaster/frame-sdk";
 
 export default function Home() {
   useEffect(() => {
-    sdk.actions.ready();   // 🔥 this fixes the error
-    
+    sdk.actions.ready();
+    sdk.actions.openUrl("/api/frame");
   }, []);
 
   return (
